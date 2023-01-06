@@ -1,4 +1,4 @@
-✨  Job-Lik ✨
+✨ Job-Lik ✨
 
 - Clone the repo by copying this code in your cmd : git clone https://github.com/Joblik/JobLik.git  
 - npm install 
