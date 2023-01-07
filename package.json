@@ -1,0 +1,27 @@
+{
+  "name": "job-lik",
+  "version": "1.0.0",
+  "description": "✨ Job-Lik ✨",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joblik/Job-Lik.git"
+  },
+  "author": "Souhaieb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Joblik/Job-Lik/issues"
+  },
+  "homepage": "https://github.com/Joblik/Job-Lik#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.28.0",
+    "sequelize-cli": "^6.5.2"
+  }
+}
