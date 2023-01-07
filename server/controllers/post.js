@@ -9,21 +9,21 @@ const getAllPosts = (req, res) => {
 
 // Getting One Post
 const getOnePost = (req, res) => {
-  Post.findByPk(req.params.id)
+  db.Post.findByPk(req.params.id)
     .then((post) => res.status(200).send(post))
     .catch((err) => res.status(400).send(err));
 };
 
 // Creating Post
 const addPost = (req, res) => {
-  Post.create(req.body)
+  db.Post.create(req.body)
     .then((post) => res.status(200).send(post))
     .catch((err) => res.status(400).send(err));
 };
 
 // Updating Post
 const updatePost = (req, res) => {
-  Post.update(req.body, {
+  db.Post.update(req.body, {
     where: {
       id: req.params.id,
     },
@@ -34,7 +34,7 @@ const updatePost = (req, res) => {
 
 // Deleting Post
 const deletePost = (req, res) => {
-  Post.destroy({
+  db.Post.destroy({
     where: {
       id: req.params.id,
     },
