@@ -1,21 +1,21 @@
 {
   "development": {
     "username": "root",
-    "password": "Laca1920#",
-    "database": "job",
-    "host": "localhost",
+    "password": "1234",
+    "database": "joblik",
+    "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "test": {
     "username": "root",
-    "password": "Laca1920#",
+    "password": null,
     "database": "database_test",
-    "host": "localhost",
+    "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "production": {
     "username": "root",
-    "password": "Laca1920#",
+    "password": null,
     "database": "database_production",
     "host": "127.0.0.1",
     "dialect": "mysql"

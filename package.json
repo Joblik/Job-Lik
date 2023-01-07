@@ -18,8 +18,10 @@
   },
   "homepage": "https://github.com/Joblik/Job-Lik#readme",
   "dependencies": {
+    "binary-extensions": "^2.2.0",
     "cors": "^2.8.5",
     "express": "^4.18.2",
+    "firebase-admin": "^11.4.1",
     "mysql2": "^2.3.3",
     "nodemon": "^2.0.20",
     "sequelize": "^6.28.0",
