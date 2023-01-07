@@ -3,19 +3,19 @@
     "username": "root",
     "password": "Laca1920#",
     "database": "job",
-    "host": "127.0.0.1",
+    "host": "localhost",
     "dialect": "mysql"
   },
   "test": {
     "username": "root",
-    "password": null,
+    "password": "Laca1920#",
     "database": "database_test",
-    "host": "127.0.0.1",
+    "host": "localhost",
     "dialect": "mysql"
   },
   "production": {
     "username": "root",
-    "password": null,
+    "password": "Laca1920#",
     "database": "database_production",
     "host": "127.0.0.1",
     "dialect": "mysql"
